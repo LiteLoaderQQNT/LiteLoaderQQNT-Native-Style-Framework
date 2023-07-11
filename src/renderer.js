@@ -1,20 +1,10 @@
-// 运行在 Electron 渲染进程 下的页面脚本
+export async function onLoad() {
+    const plugin_path = LiteLoader.plugins.native_style_framework.path.plugin;
+    const css_file_path = `file://${plugin_path}/src/style.css`;
 
+    const link_element = document.createElement("link");
+    link_element.rel = "stylesheet";
+    link_element.href = css_file_path;
 
-// 页面加载完成时触发
-function onLoad() {
-
-}
-
-
-// 打开设置界面时触发
-function onConfigView(view) {
-
-}
-
-
-// 这两个函数都是可选的
-export {
-    onLoad,
-    onConfigView
+    document.head.appendChild(link_element);
 }

@@ -1,9 +1,9 @@
 {
     "manifest_version": 1,
-    "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT的插件模板",
+    "type": "framework",
+    "name": "LiteLoader 样式框架",
+    "slug": "native_style_framework",
+    "description": "LiteLoaderQQNT的样式框架",
     "version": "0.1.0",
     "author": [
         {
@@ -17,8 +17,6 @@
         "darwin"
     ],
     "injects": {
-        "renderer": "./src/renderer.js",
-        "main": "./src/main.js",
-        "preload": "./src/preload.js"
+        "renderer": "./src/renderer.js"
     }
 }
