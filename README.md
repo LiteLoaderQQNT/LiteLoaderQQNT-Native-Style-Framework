@@ -1,4 +1,4 @@
-# LiteLoaderQQNT-Plugin-Template
+# LiteLoaderQQNT-Native-Style-Framework
 
 iteLoaderQQNT内置插件，LiteLoaderQQNT的配置界面
 
