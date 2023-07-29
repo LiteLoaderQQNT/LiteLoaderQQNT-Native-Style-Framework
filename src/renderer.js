@@ -1,6 +1,6 @@
 export async function onLoad() {
     const plugin_path = LiteLoader.plugins.native_style_framework.path.plugin;
-    const css_file_path = `file://${plugin_path}/src/style.css`;
+    const css_file_path = `llqqnt://local-file/${plugin_path}/src/style.css`;
 
     const link_element = document.createElement("link");
     link_element.rel = "stylesheet";
