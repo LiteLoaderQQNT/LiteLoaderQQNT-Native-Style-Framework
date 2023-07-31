@@ -12,9 +12,9 @@
     },
     "repository": {
         "repo": "mo-jinran/LiteLoaderQQNT-Native-Style-Framework",
-        "branch": "main",
+        "branch": "v3",
         "use_release": {
-            "tag": "latest",
+            "tag": "0.1.0",
             "name": "LiteLoaderQQNT-Native-Style-Framework.zip"
         }
     },
