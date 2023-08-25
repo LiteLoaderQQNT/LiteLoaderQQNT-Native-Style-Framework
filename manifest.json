@@ -4,7 +4,7 @@
     "name": "LiteLoader 样式框架",
     "slug": "native_style_framework",
     "description": "LiteLoaderQQNT的样式框架",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "thumbnail": "",
     "author": {
         "name": "LiteLoaderQQNT",
@@ -14,7 +14,7 @@
         "repo": "LiteLoaderQQNT/LiteLoaderQQNT-Native-Style-Framework",
         "branch": "v3",
         "use_release": {
-            "tag": "0.1.1",
+            "tag": "0.1.2",
             "name": "LiteLoaderQQNT-Native-Style-Framework.zip"
         }
     },
